@@ -24,3 +24,14 @@ sugar_levels = [1, 2, 3, 4, 5]
 print(f"Maximum Sugar level is : {max(sugar_levels)}")
 print(f"Minimum Sugar level is : {min(sugar_levels)}")
 
+base_liquid = ["water", "milk"]
+extra_flavor = ["ginger"]
+full_liquid_mix = base_liquid + extra_flavor
+print(f"Liquid Mix : {full_liquid_mix}")
+
+strong_brew = ["black tea", "water"] * 3
+print(f"Strong brew : {strong_brew}")
+
+raw_spice_data = bytearray(b"CINNAMON")
+raw_spice_data = raw_spice_data.replace(b"CINNA", b"CARD")
+print(f"Bytes : {raw_spice_data}")
